@@ -8,7 +8,7 @@ public class Animals {
         this.nonVeg = true;
         this.eyeColor ="blue";
     }
-    public int getNoOfLegs(){
+    public int getnoOfLegs(){
         return noOfLegs;
     }
     public boolean getnonVeg(){
@@ -16,14 +16,5 @@ public class Animals {
     }
     public String geteyeColor(){
         return eyeColor;
-    }
-
-
-    public static void main(String[] args){
-        Animals an = new Animals(4,true,"blue");
-        System.out.println("no. of legs = "+ an.getNoOfLegs());
-        System.out.println("animal is vegetarian = "+ an.getNoOfLegs());
-        System.out.println("color of eye = "+ an.getNoOfLegs());
-
     }
 }
